@@ -200,7 +200,7 @@ var GridBuilder = (function () {
         $table.append($tr);
 
         $tr = $('<tr />');
-        $tr.append($('<td colspan="1500" class="score" />').html("Score = " + (-1)*score));
+        $tr.append($('<td colspan="1500" class="score" />').html("Resulting Dissimilarity Score = " + (-1)*score));
         $table.append($tr);
 
         mDomResultContainer.append($table);
