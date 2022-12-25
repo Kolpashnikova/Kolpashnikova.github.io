@@ -29,7 +29,7 @@ permalink: /CV/
 * analysis of time-use data and publishing papers
 * The Data Incubator (data science) bootcamp (2021)
 
-#### Self-Employed (Independent Researcher, 2017/01 - 2019/02)
+#### Self-Employed (Independent Researcher, 2017/05 - 2019/02)
 
 * publishing papers on time use data
 * PHP full-stack developer bootcamp (2017-2018)
@@ -46,7 +46,7 @@ permalink: /CV/
 
 ## Education & Qualifications
 
-* University of British Columbia (PhD in Sociology) 
+* University of British Columbia (PhD in Sociology, 2017) 
 * University of Tokyo (Master's in Socio-informatics)
 
 ## Misc. Information
