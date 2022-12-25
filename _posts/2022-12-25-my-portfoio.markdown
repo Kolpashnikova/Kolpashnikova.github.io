@@ -7,4 +7,6 @@ categories: jekyll update
 
 Hi, everyone!
 
-So, finally, I got to the point where I decided to update my GitHub website. This blog will be used for updating everyone on my current projects and perhaps organizing all the things that I'm doing :)
+So, finally, I got to the point where I decided to update my GitHub website. This blog will be used for updating everyone on my current projects and perhaps organizing all the things that I'm doing at one time or another :)
+
+I will be organizing my most recent (a.k.a. important) projects in the Projects tab, where you can learn a little about them.
