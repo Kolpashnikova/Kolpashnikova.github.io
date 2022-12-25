@@ -34,8 +34,8 @@ permalink: /CV/
 * publishing papers on time use data
 * PHP full-stack developer bootcamp (2017-2018)
 * teaching statistics, quantitative research methods, and econometrics
-* visiting National Taipei University
-* visiting American Unviersity of Central Asia
+* visiting National Taipei University (2018)
+* visiting American Unviersity of Central Asia (2017)
 
 ## Recent Projects
 
