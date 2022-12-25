@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mila Kolpashnikova's Portfolio
-email: kkamila [at] yorku.ca
+email: kamilako [at] yorku.ca
 description: >- # this means to ignore newlines until "baseurl:"
   This is a summary of my projects on GitHub. Check it out and find out more about me and my projects.
 domain: Kolpashnikova.github.io
