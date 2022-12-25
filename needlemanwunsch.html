@@ -1,0 +1,123 @@
+---
+permalink: /needlemanwunsch.html
+layout: blank
+---
+
+<html>
+<head>
+    <title>SA Workshop | Optimal Matching</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="HandheldFriendly" content="True">
+    <link href="style/NeedlemanWunsch.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/NeedlemanWunsch.js"></script>
+</head>
+
+<script>
+function restart(){
+    clear();
+   GridBuilder.highlightOptimal();
+}
+
+function clear(){
+    var cont = $('#cont');
+    var resultContainer = $('#result');
+    var matchScore = parseInt($('#matchScore').val());
+    var mismatchScore = parseInt($('#mismatchScore').val());
+    var gapScore = parseInt($('#gapScore').val());
+    var seqSide = $('#seq_1').val();
+    var seqTop = $('#seq_2').val();
+    
+    GridBuilder.rebuildTable(cont, resultContainer, matchScore, mismatchScore, gapScore, seqSide, seqTop);
+}
+
+$(document).ready(function(){
+
+   
+   
+    restart();
+    
+    $('.seq').keyup(function(){
+        restart();
+    });
+   
+   $('.params').change(function(){
+        restart();
+    });
+    
+    $('.btn-clear').click(function(){
+        clear();
+    });
+
+    $('.btn-compute').click(function(){
+        restart();
+    });
+
+    $('.btn-custom').click(function(){
+        GridBuilder.startCustomPath();
+    });
+
+});
+
+</script>
+
+
+<style> 
+
+
+</style> 
+
+
+<div class="container">
+<h2>Optimal Matching Interactive App for Social Scientists</h2>
+
+<p>
+This is an interactive demonstation of Needleman-Wunsch algorithm as it is usually used by statistical packages (such as TraMineR) for sequence analysis in social sciences. The names Needleman-Wunsch, optimal matching, and global alignment algorithms are interchangeable depending on the disciplinary convention. This code is originally prepared for the sequence analysis workshop funded by the MSCA fellowship and tailored for the Department of Sociology (at Oxford).
+</p>
+
+<b>Instructions:</b>:
+ You can modify the sequences using letters or numbers. Play with different indel and substitution costs. If you hover your mouse over any cell, the tooltip will appear to explain how each score is calculated. Out of the three neighboring cells, the minimum is chosen for the cell score.
+</p>
+
+</p>
+</div>
+
+
+
+<table>
+  <tr>
+    <td><label>Sequence 1</label></td>
+    <td colspan="4"><input id="seq_1" class='seq' value="12345678" maxlength="96" /></label></td>
+    <td rowspan="10" id="result"></td>
+  </tr>
+  <tr>
+    <td><label>Sequence 2</label></td>
+    <td colspan="4"><input id="seq_2" class='seq' value="45678901" maxlength="96" /></td>
+  </tr>
+<tr>
+    <td colspan="4">
+       <br />
+    </td></tr>
+
+  <tr colspan="4">
+    <th><label>Indel Cost</label></th>
+    <th><label>Substitution Cost</label></th>
+    <th></th>
+  </tr>
+  <tr>
+    <td><input class="params" id="gapScore" type="number" value="1" /></td>
+    <td><input class="params" id="mismatchScore" type="number" value="2" /></td>
+    <td><input type="hidden" class="params" id="matchScore" type="number" value="0" /></td>
+  </tr>
+</table>
+
+<div id="cont"></div>
+  
+  <p>
+    Citation: <a href="https://blogs.ubc.ca/kamilakolpashnikova/">Kamila Kolpashnikova</a>. Optimal Matching Interactive App for Social Scientists.
+  </p>
+
+
+
+</body>
+</html>
