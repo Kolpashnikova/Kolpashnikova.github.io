@@ -40,7 +40,7 @@ include:
   - "script"
   - "css"
   - "data"
-  - "Presentations"
+#  - "Presentations" # this adds chalkboards
 
 # Exclude from processing.
 # The following items will not be processed, by default.
