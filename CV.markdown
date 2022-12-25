@@ -29,15 +29,13 @@ permalink: /CV/
 * analysis of time-use data and publishing papers
 * The Data Incubator (data science) bootcamp (2021)
 
-#### National Taipei University (Visiting Researcher, 2018/01 - 2018/12)
+#### Self-Employed (Independent Researcher, 2017/01 - 2019/02)
 
 * publishing papers on time use data
 * PHP full-stack developer bootcamp (2017-2018)
-
-#### American University of Central Asia (Visiting Assistant Professor, 2017/01 - 2017/12)
-
 * teaching statistics, quantitative research methods, and econometrics
-* PHP full-stack developer bootcamp (2017-2018)
+* visiting National Taipei University
+* visiting American Unviersity of Central Asia
 
 ## Recent Projects
 
