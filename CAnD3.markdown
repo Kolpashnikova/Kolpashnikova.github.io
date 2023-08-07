@@ -25,4 +25,10 @@ lorem ipsum
 
 ## Dragon's Den
 
-lorem ipsum
+In this project, we created visualizations like the following:
+<img src="/img/combined.gif" style="display: block; margin-left: auto; margin-right: auto; width: 50vh;" alt="combined img" />
+
+The full code for creating this visualization can be found on my GitHub:
+<a href="https://github.com/Kolpashnikova/DragonsDen" target="_blank"><img src="/img/dragons-den.png" style="display: block; margin-left: auto; margin-right: auto; width: 50vh;" alt="dragons-den" /></a>
+
+
