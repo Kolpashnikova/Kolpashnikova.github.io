@@ -17,7 +17,7 @@ This exercise helped to learn best practices in how to prepare documentation for
 
 For this project, the code used data from GSS 2017 and analyzed shared domestic tasks among heterosexual and same-sex couples it using R. One master (shell) file runs all of the scripts, which are located in the ‘src’ folder, and creates tables, which can be found in ‘output’ folder. The replicator should expect the code to run for a few minutes.
 
-<a href="https://github.com/Kolpashnikova/reproducibility-project"><img src="/img/reproducibility-project.png" style="display: block; margin-left: auto; margin-right: auto; width: 30vh;" alt="reproducibility-project" /></a>
+<a href="https://github.com/Kolpashnikova/reproducibility-project" target="_blank"><img src="/img/reproducibility-project.png" style="display: block; margin-left: auto; margin-right: auto; width: 50vh;" alt="reproducibility-project" /></a>
 
 ## Producing Policy Briefs
 
