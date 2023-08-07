@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CAnD3 Portfolio Update"
-date:   2023-08-07 12:00:04 -0500
+date:   2023-08-06 12:00:04 -0500
 categories: jekyll update
 ---
 
