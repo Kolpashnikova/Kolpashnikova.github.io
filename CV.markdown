@@ -29,7 +29,7 @@ permalink: /CV/
 * analysis of time-use data and publishing papers
 * The Data Incubator (data science) bootcamp (2021)
 
-### visiting National Taipei University, 2018/01 - 2018/12
+#### visiting National Taipei University, 2018/01 - 2018/12
 
 * publishing papers on time use data
 * learning Mandarin
