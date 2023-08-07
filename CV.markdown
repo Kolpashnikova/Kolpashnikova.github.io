@@ -20,6 +20,9 @@ permalink: /CV/
 
 #### York University (Postdoctoral Visitor, 2022/03 - present) 
 
+* CAnD3 fellow (September 2022 - July 2023)
+* AGE-WELL HQP (April 2022 - August 2023)
+* AGE-WELL Summer Institute (June 2023)
 * working on visualizing time-use data and eye-tracking sequences (R packages)
 * developing websites for the visualization tools (atusxvisualizer.com), using TailwindUI + Vite
 
