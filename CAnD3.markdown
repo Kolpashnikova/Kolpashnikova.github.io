@@ -7,13 +7,17 @@ permalink: /CAnD3/
 ## Objectives
 
 During the CAnD3 program, I plan to achieve a few milestones:
- - learn to visualize in R
+ - reproducibility project in R
  - produce policy briefs
  - produce data analysis and visualizations for the Dragon's Den
 
-## Learning to visualize in R
+## Reproducibility project in R
 
-lorem ipsum
+This exercise helped to learn best practices in how to prepare documentation for academic papers and code in R for reproducibility. 
+
+For this project, the code used data from GSS 2017 and analyzed shared domestic tasks among heterosexual and same-sex couples it using R. One master (shell) file runs all of the scripts, which are located in the ‘src’ folder, and creates tables, which can be found in ‘output’ folder. The replicator should expect the code to run for a few minutes.
+
+<a href="https://github.com/Kolpashnikova/reproducibility-project"><img src="/img/reproducibility-project.png" style="display: block; margin-left: auto; margin-right: auto; width: 30vh;" alt="reproducibility-project" /></a>
 
 ## Producing Policy Briefs
 
