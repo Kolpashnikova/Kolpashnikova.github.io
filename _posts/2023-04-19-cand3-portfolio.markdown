@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "CAnD3 Portfolio"
+title:  "CAnD3 Portfolio Objectives"
 date:   2023-04-19 12:00:04 -0500
 categories: jekyll update
 ---
